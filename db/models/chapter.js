@@ -1,7 +1,6 @@
 'use strict';
 const {Model,Sequelize, DataTypes } = require('sequelize');
 const sequelize = require('../../config/database');
-const AppError = require('../../utils/apierror');
 const subtopic = require('./subtopic');
 
 
