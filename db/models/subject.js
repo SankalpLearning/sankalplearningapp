@@ -1,7 +1,6 @@
 'use strict';
 const {Model,Sequelize, DataTypes } = require('sequelize');
 const sequelize = require('../../config/database');
-const AppError = require('../../utils/apierror');
 const chapter = require('./chapter');
 
 const subject = sequelize.define('subject',{
